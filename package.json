@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "ncu:check": "ncu --deep -p npm",
+    "ncu:upgrade": "ncu --deep -u -p npm"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^12.5.9"
+  }
+}
